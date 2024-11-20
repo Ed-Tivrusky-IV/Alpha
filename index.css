@@ -1,0 +1,45 @@
+.header1 {
+  color: cadetblue;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+.center {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dad {
+  font-size: 150%;
+  margin: 30px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border: 3px dotted;
+}
+.icon {
+  width: 5%;
+  height: auto;
+  vertical-align: middle;
+}
+.musiclink {
+  padding-bottom: 30px;
+}
+#recent {
+  margin: 30px;
+  padding: 20px;
+  border: 1px solid;
+}
+body {
+  background-color: lightgray;
+}
+a:link {
+  color: black;
+  text-decoration: underline;
+}
+a:visited {
+  color: gray;
+  text-decoration: underline;
+}
+a:hover {
+  color: brown;
+  text-decoration: underline;
+}
