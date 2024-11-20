@@ -19,9 +19,17 @@
   width: 5%;
   height: auto;
   vertical-align: middle;
+  float: left;
 }
 .musiclink {
   padding-bottom: 30px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+span {
+  display: inline-block;
 }
 #recent {
   margin: 30px;
