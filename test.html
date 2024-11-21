@@ -1,0 +1,28 @@
+<!--Ignore this one, I used only for test JS-->
+<div class="div01" style="border:1px solid black; padding:10px">
+    <p>Right-click in this box to see the hidden content!</p>
+    </div>
+    
+    <div id="myDiv" style="visibility:hidden">
+    <p>This info is hidden</p>
+    <p>This info is hidden</p>
+    <p>This info is hidden</p>
+    </div>
+    
+    <script>
+    // Assign an "contextmenu" event to div01:
+    document.getElementsByClassName("div01").addEventListener("contextmenu", myFunction);
+    
+    // Prevent default context menu:
+    const div = document.getElementsByClassName("div01");
+    div.addEventListener("contextmenu", (e) => {e.preventDefault()});
+    
+    // Show hidden content:
+    function myFunction() {
+      const div = document.getElementById("myDiv");
+      div.style.visibility = "visible";
+    }
+    </script>
+    
+    </body>
+    </html>

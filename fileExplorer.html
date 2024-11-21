@@ -9,7 +9,7 @@
   </head>
   <body>
     <section>
-      <div style="text-align: center">
+      <div style="text-align: center" id="audio">
         <img
           src="/images/go back.png"
           alt="go back"
@@ -17,7 +17,10 @@
           title="This is the root!"
         />
         <a href="/index.html">
-          <span class="header1" style="font-size: 300%" title="R U Blind?"
+          <span
+            class="header1"
+            style="font-size: 300%"
+            title="Go back to uploading page"
             >The Eye Muse</span
           >
         </a>
@@ -29,7 +32,12 @@
         <div>
           <figure>
             <a href="/mozart.html">
-              <img src="/images/folder.png" alt="folder" style="width: 100%" />
+              <img
+                src="/images/folder.png"
+                alt="folder"
+                style="width: 100%"
+                class="audio"
+              />
             </a>
             <figcaption style="text-align: center">Mozart</figcaption>
           </figure>
@@ -37,7 +45,12 @@
         <div>
           <figure>
             <a href="/chopin.html">
-              <img src="/images/folder.png" alt="folder" style="width: 100%" />
+              <img
+                src="/images/folder.png"
+                alt="folder"
+                style="width: 100%"
+                class="audio"
+              />
             </a>
             <figcaption style="text-align: center">Chopin</figcaption>
           </figure>
@@ -45,32 +58,60 @@
         <div>
           <figure>
             <a href="/mahler.html">
-              <img src="/images/folder.png" alt="folder" style="width: 100%" />
+              <img
+                src="/images/folder.png"
+                alt="folder"
+                style="width: 100%"
+                class="audio"
+              />
             </a>
             <figcaption style="text-align: center">G.Mahler</figcaption>
           </figure>
         </div>
         <div>
           <figure>
-            <img
-              src="/images/audio file.png"
-              alt="audio file"
-              style="width: 100%"
-            />
+            <a href="/music sheets/Chopin_Op.49.pdf">
+              <img
+                src="/images/audio file.png"
+                alt="audio file"
+                style="width: 100%"
+                class="audio"
+              />
+            </a>
             <figcaption style="text-align: center">Chopin Op.49</figcaption>
           </figure>
         </div>
         <div>
           <figure>
-            <img
-              src="/images/audio file.png"
-              alt="audio file"
-              style="width: 100%"
-            />
+            <a href="/music sheets/R.Strauss_Op.20.pdf">
+              <img
+                src="/images/audio file.png"
+                alt="audio file"
+                style="width: 100%"
+                class="audio"
+              />
+            </a>
             <figcaption style="text-align: center">R.Strauss Op.20</figcaption>
           </figure>
         </div>
       </div>
     </section>
+
+    <section>
+      <div id="context" class="context-menu" style="display: none">
+        <ul>
+          <li><a href="#">Rename</a></li>
+          <li><a href="#">Move</a></li>
+          <li><a href="#" style="color: red">Delete</a></li>
+          <!--
+          <li><a href="#">Element-4</a></li>
+          <li><a href="#">Element-5</a></li>
+          <li><a href="#">Element-6</a></li>
+          <li><a href="#">Element-7</a></li>-->
+        </ul>
+      </div>
+    </section>
+
+    <script src="/popup.js"></script>
   </body>
 </html>
